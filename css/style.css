@@ -1,0 +1,84 @@
+/***************** Nav *******************/
+nav h1 {
+  color: rgb(128, 118, 118);
+}
+
+.nav-item a:link,
+.nav-item a:visited {
+  color: rgb(128, 118, 118);
+  padding-left: 20px;
+}
+
+.nav-item a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.nav-item a:active {
+  color: rgb(128, 118, 118);
+}
+
+.nav-item-button a {
+  color: rgb(128, 118, 118);
+}
+/****************** Nav meni button **************/
+@media screen and (min-width: 992px) {
+  .nav-item-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 199px) {
+  .nav-item-button {
+    display: none;
+  }
+}
+
+/***************** Hero *******************/
+
+main img {
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: bottom;
+}
+
+#text-h1 {
+  top: 180px;
+  color: white;
+  background-color: rgb(19, 209, 146);
+  padding: 10px;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+
+/*************** Hero text *********************/
+
+@media screen and (min-width: 601px) {
+  #text-h1 {
+    font-size: 2.5vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #text-h1 {
+    font-size: 1.9vh;
+  }
+}
+
+/***************** Content *****************/
+
+.row h5 {
+  margin: 25px 0;
+  border-bottom: 1px solid rgb(192, 189, 188);
+}
+
+/***************** Footer ******************/
+
+footer {
+  background-color: rgb(37, 37, 37);
+}
+
+#footer-copy {
+  background-color: rgb(15, 15, 15);
+}
